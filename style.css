@@ -70,7 +70,7 @@ nav img{
     font-size: 14px;
     color:white;
 }
-.hero-btn{
+.banner-btn{
     display: inline-block;
     text-decoration: none;
     color: #ffff;
@@ -81,7 +81,7 @@ nav img{
     position:relative;
     cursor:pointer;
 }
-.hero-btn:hover{
+.banner-btn:hover{
     border: 1px solid #7c0d64;
     background: #0d0b0c;
     transition: 1s;
@@ -124,9 +124,9 @@ nav .fa-solid{
     }
 
 }
-/* ------------course-------------- */
+/* ------------categories-------------- */
 
-.course{
+.categories{
     width:100%;
     margin:auto;
     text-align: center;
@@ -152,7 +152,7 @@ p{
     justify-content: center;
     
 }
-.course-col1{
+.categories-col1{
     /* flex-basis:30%; */
     height: 60vh;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/images/CAROLINE.jpg);
@@ -166,7 +166,7 @@ p{
     cursor: pointer;
     margin-right: 1%;
 }
-.course-col2{
+.categories-col2{
     /* flex-basis:30%; */
     height: 60vh;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/images/arcane.jpg);
@@ -180,7 +180,7 @@ p{
     cursor: pointer;
     margin-right: 1%;
 }
-.course-col3{
+.categories-col3{
     /* flex-basis:30%; */
     height: 60vh;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/images/BRIDE.jpg);
@@ -199,13 +199,13 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
-.course-col1:hover{
+.categories-col1:hover{
     box-shadow: 0 0 50px 0px rgba(0,0,0,3.5);
 }
-.course-col2:hover{
+.categories-col2:hover{
     box-shadow: 0 0 50px 0px rgba(0,0,0,3.5);
 }
-.course-col3:hover{
+.categories-col3:hover{
     box-shadow: 0 0 50px 0px rgba(0,0,0,3.5);
 }
 
@@ -217,9 +217,9 @@ h3{
 }
 
 
-/* -----------campus----------- */
+/* -----------moviesweek----------- */
 
-.campus{
+.moviesweek{
     width:100%;
     margin:auto;
     text-align:center;
@@ -227,7 +227,7 @@ h3{
     background: #1f1a1c;
     
 }
-.campus-col{
+.moviesweek-col{
     flex-basis:32%;
     border-radius:10px;
     margin-bottom:40px;
@@ -237,12 +237,12 @@ h3{
     margin-right: 3%;
     /* justify-content:center; */
 }
-.campus-col img{
+.moviesweek-col img{
     width:100%;
     height: 100%;
     display: block;
 }
-.campus p{
+.moviesweek p{
     color:black;
 }
 
@@ -277,9 +277,9 @@ h3{
     opacity: 1;
 }
 
-/* ------facilities-------- */
+/* ------newest-------- */
 
-.facilities{
+.newest{
     width:100%;
     margin:auto;
     text-align:center;
@@ -288,7 +288,7 @@ h3{
     margin-top: 5%;
 }
 
-.facilities-col{
+.newest-col{
     flex-basis: 35%;   
     border-radius: 10px;
     margin-bottom: 5%;
@@ -298,34 +298,34 @@ h3{
     margin-left:5%;
 
 }
-.facilities-col img{
+.newest-col img{
     width:80%;
     height: 80%;
     border-radius:10px;
     cursor: pointer;
 }
-.facilities-col p{
+.newest-col p{
     padding:0;
     color:black;
 }
-.facilities p{
+.newest p{
     color:rgb(255, 255, 255);
     font-size: medium;
 }
-.facilities-col h3{
+.newest-col h3{
     margin-top:16px;
     margin-bottom:15px;
     text-align: left;
     color:rgb(255, 255, 255);
 }
-.facilities h1{
+.newest h1{
     color:#4691d6;
 }
 
 /* 
--------tetimonials-------- */
+-------comment-------- */
 
-.testimonials{
+.comment{
     max-width: 80%;
     margin:auto;
     padding-top:100px;
@@ -333,27 +333,28 @@ h3{
 
 }
 
-.testimonial-col{
+.comment-col{
     flex-basis: 44%;
     border-radius: 10px;
     margin-bottom:5%;
     text-align:left;
-    background: #79084c;
+    background: #3e2e37;
     padding: 25px;
     cursor:pointer;
     display:flex;
+    margin-right:5%;
 }
-.testimonial-col img{
+.comment-col img{
     height:40px;
-    margin-left:5px;
-    margin-left:30px;
+    /* margin-left:5px; */
     border-radius: 50%;
+    margin-right: 5%;
 }
-.testimonial-col p{
+.comment-col p{
     padding:0;
 
 }
-.testimonial-col h3{
+.comment-col h3{
     margin-top:15px;
     text-align: left;
 
@@ -361,15 +362,15 @@ h3{
 /* ----------responsive----------------- */
 
 @media(max-width:700px){
-    .testimonial-col img{
+    .comment-col img{
         margin-left:0px;
         margin-left:15px;
         
     }
 }
 
-/* ----call to action----- */
-.cta{
+/* ----contact----- */
+.contact{
     margin:100px auto;
     width:80%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/bannertuba2.jpg);
@@ -379,13 +380,13 @@ h3{
     text-align:center;
     padding: 100px 0;
 }
-.cta h1{
+.contact h1{
     color:white;
     margin-bottom:40px;
     padding:0;
 }
 @media(max-width:700px){
-    .cta h1{
+    .contact h1{
         font-size:24px;
     }
 }

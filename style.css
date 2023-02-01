@@ -44,7 +44,7 @@ nav img{
     content: '';
     width:50%;
     height:2px;
-    background-color: #f44336;
+    background-color: #ffffff;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -101,7 +101,7 @@ nav .fa-solid{
 }
 .nav-links {
     position: absolute;
-    background: #f44336;
+    background: #4e1032;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -330,9 +330,8 @@ h3{
     margin:auto;
     padding-top:100px;
     text-align:center;
-
+    
 }
-
 .comment-col{
     flex-basis: 44%;
     border-radius: 10px;
